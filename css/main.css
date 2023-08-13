@@ -137,7 +137,7 @@ button {
 button:hover {
     background-color: black;
     color: #ff4f00;
-    border: 1px solid #fff;
+    border: 1px solid #ff4f00;
     transition: .2s ease-in;
 }
 
@@ -175,12 +175,8 @@ button:hover {
         margin-right: 0;
     }
 
-    .products > ul {
-        justify-content: center;
-    }
-
-    .list-products {
-        width: 100%;
+    .products > ul li{
+    width: 100%;
     }
 }
 
@@ -189,8 +185,23 @@ button:hover {
         display: block;
     }
 
+    .about-shop img {
+        width: 100%;
+    }
+
     .list-products {
         margin-bottom: 2rem;
-        
+    }
+    
+    .products > ul li{
+    width: 45%;
+    }
+
+    h3 {
+        line-height: 1;
+    }
+
+    .description-itens p {
+        margin-top: .7rem;
     }
 }
